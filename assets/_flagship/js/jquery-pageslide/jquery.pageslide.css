@@ -1,0 +1,130 @@
+
+	
+.site-overlay {
+  display: none;
+  @include transition (all 200ms ease-in);
+   position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+  width:100%;
+   background:rgba(0,0,0,.6);
+}
+
+.open-panel .site-overlay {
+
+  display: block;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+ 
+ 
+}
+@media (max-width: 440px) {
+  .open-panel .site-overlay {
+    display: none;
+  }
+}
+.error{
+	color:#FFC7C5;
+	font-weight:600;
+}
+.enquiry-panel-wrapper {
+	color:#fff;
+	font-weight:300;
+  text-align: left;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 200;
+  max-width: 440px;
+  background:#000;
+  -webkit-transform: translateX(440px);
+      -ms-transform: translateX(440px);
+          transform: translateX(440px);
+  -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+          transition: transform 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  
+}
+.enquiry-panel-wrapper p{
+	margin-bottom:1.5em;
+}
+.enquiry-panel-wrapper a{
+		font-weight:300;
+		color:#FFC7C5;
+		&:hover, &:active{
+			color:#FFF;
+		}
+	}
+.open-panel .enquiry-panel-wrapper {
+  -webkit-transform: translateX(0);
+      -ms-transform: translateX(0);
+          transform: translateX(0);
+}
+.enquiry-panel-wrapper .enquiry-panel {
+  position: relative;
+  padding: 25px 50px 0;
+}
+@media (max-width: 440px) {
+  .enquiry-panel-wrapper .enquiry-panel {
+    padding: 40px 25px;
+  }
+}
+.enquiry-panel-wrapper .close-panel {
+	font-size:28px;
+  color: $skincolor;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  -webkit-transition: color 0.2s ease;
+          transition: color 0.2s ease;
+}
+
+.enquiry-panel-wrapper .close-panel:hover {
+  color: #303840;
+}
+.enquiry-panel-wrapper h2 {
+  font-style: normal;
+  font-size: 30px;
+  margin: 0 0 25px 0;
+  text-align:left;
+}
+.enquiry-panel-wrapper input[type='text'] {
+	margin-bottom:.5em;
+
+}
+.enquiry-panel-wrapper .contact-details {
+  margin: 20px 0;
+  display: none;
+}
+.enquiry-panel-wrapper .contact-details a {
+  
+}
+.enquiry-panel-wrapper .contact-details a span {
+  
+}
+.enquiry-panel-wrapper .contact-details a:hover span {
+}
+.enquiry-panel-wrapper .contact-details a:last-child {
+  border: none;
+}
+.gform_wrapper .top_label .gfield_label{
+	font-weight:300 !important;
+	color:#FFC7C5;
+}
+
+.gform_wrapper div.validation_error {
+    color: #FFF !important;
+ 
+    border-top: 2px solid !important;
+    border-bottom: 2px solid !important;
+  
+}
