@@ -240,7 +240,9 @@
 }
 
 img.rsImg {
-	max-width: none;
+	width: 100%;
+	height: auto;
+	margin: auto;
 }
 
 .grab-cursor {
