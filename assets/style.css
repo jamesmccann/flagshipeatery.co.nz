@@ -278,8 +278,7 @@ textarea {
 
 h1,
 h2,
-h3,{ 
-	color:#a17a66;
+h3,{ color:#a17a66 !important;
 }
 h4,
 h5,
