@@ -278,14 +278,16 @@ textarea {
 
 h1,
 h2,
-h3,
+h3,{ 
+	color:#a17a66;
+}
 h4,
 h5,
 h6 {
 	clear: both;
 }
 
-p {
+p { color:#a17a66;
 	margin-bottom: 1.5em;
 }
 
