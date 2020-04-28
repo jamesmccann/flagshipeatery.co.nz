@@ -507,7 +507,7 @@ textarea {
 ## Links
 --------------------------------------------------------------*/
 a,a:visited {
-	color: #FFC7C5;
+	color: #FFFFFF;
 	text-decoration: none;
 }
 
@@ -516,7 +516,7 @@ a:hover,
 a:focus,
 a:active {
 
-	color: #FFC7C5;
+	color: #FFFFFF;
 	
 }
 
