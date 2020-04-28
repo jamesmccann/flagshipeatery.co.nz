@@ -448,7 +448,7 @@ input[type="reset"]:hover,
 input[type="submit"]:hover, 
 .btn:hover {
 	text-decoration:none;
-	background: #222;
+	background: #A17A66;
 	border: 2px solid #A17A66;
 }
 
@@ -766,7 +766,7 @@ body .royalSlider .rsSBlock{
 .rsUni .rsVideoFrameHolder,
 .rsUni .rsThumbs {
 	background: #fff;
-	color:#222;
+	color:#ced1d5;
 }
 .rsUni .rsBullets{
 	margin-top: 1.5em !important;
@@ -1124,7 +1124,7 @@ a.logo{
 	top: 50px;
 	left: 50px;
 	height: 225px;
-	background: #222;
+	background: #a17a66;
 	/* right: 50%; */
 }
 
