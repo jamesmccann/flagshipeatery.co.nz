@@ -140,7 +140,7 @@
 
 .royalSlider.rsAutoHeight,
 .rsAutoHeight .rsSlide {
-	height: auto !important;
+	height: auto;
 }
 
 
