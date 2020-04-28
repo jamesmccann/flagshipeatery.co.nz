@@ -747,7 +747,7 @@ a:active {
 --------------------------------------------------------------*/
 
 .royalSlider{
-	height: 80vh !important; // force 80vh height
+	height: 80vh !important;
 	z-index: -999;
 }
 
@@ -893,7 +893,7 @@ body.error404{
 
 @media screen and (max-width: 790px) {
 	body .royalSlider{
-		height: 80vh !important;
+		height: 60vh !important;
 		z-index: -999;
 	}
 	body .col{
